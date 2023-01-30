@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 
-#%%
-#Code referenced github statsonthecloud/Soccer-SEQ2Event, paper https://eprints.soton.ac.uk/458099/
-#only retrived data and additional standarization is different compare to the above reference
-#%%
 import numpy as np; import pandas as pd; import sklearn as sk; import matplotlib.pyplot as plt; import seaborn as sns; import os
 import random; from scipy import stats; from sklearn import preprocessing; from sklearn.preprocessing import OneHotEncoder,LabelEncoder
 import numpy.lib.recfunctions as rfn; import statsmodels.api as sm; from statsmodels.graphics.regressionplots import abline_plot

@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
 
-ref https://github.com/statsonthecloud/Soccer-SEQ2Event/blob/main/Seq2Event_Notebook02_Modelling.ipynb 
-paper https://eprints.soton.ac.uk/458099/
-"""
  
 #%%
 import os
