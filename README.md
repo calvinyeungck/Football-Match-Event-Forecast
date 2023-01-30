@@ -8,9 +8,9 @@ The code and dataset for the proposed model are contained in the following files
 
 2. train_valid_test_split.py creates the other continouses features and split the csv dataset created in step 1 into  train/valid/test set according to the 0.8/0.1/0.1 ratio.
 
-3. NMSTPP.py is the code for training and validating the the NMSTPP model referencing the code for the [Seq2event](https://github.com/statsonthecloud/Soccer-SEQ2Event/blob/main/Seq2Event_Notebook02_Modelling.ipynb) model, and the testing result is also included.
+3. NMSTPP.py is the code for training, validating, and testing the NMSTPP model referencing the code for the [Seq2event](https://github.com/statsonthecloud/Soccer-SEQ2Event/blob/main/Seq2Event_Notebook02_Modelling.ipynb) model.
 
-4. forecast.py is the code for forecasting the entire dataset.
+4. forecast.py is the code for forecasting the entire dataset with NMSTPP model.
 
 # Introduction
 With recently available football match event data that record the detail of the football match, analysts and researchers have a great opportunity to develop new performance metrics, gain insight, and evaluate key performance.
