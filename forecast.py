@@ -365,8 +365,6 @@ def model_train(epochs):
   optimiser  = optim.Adam(model.parameters(),lr=0.01,eps=1e-16)
   scheduler  = torch.optim.lr_scheduler.ReduceLROnPlateau(optimiser,factor=.1,patience=3,verbose=True)
 
-  #model.load_state_dict(torch.load("/content/gdrive/MyDrive/COMP6200project/Soccer/Data/1processed/MDLstate_20210730am_working_1GRU20210816star3"))
-
   trainloss_hist = pd.DataFrame(columns=["epoch","trn_L","trn_CEL_zone","trn_CEL_action","trn_MSEL"])
   time_start = datetime.now()
   for t in range(epochs):
