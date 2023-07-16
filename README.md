@@ -20,7 +20,7 @@ To this end, we propose the Transformer-Based Neural Marked Spatio Temporal Poin
 
 
 ## Reference
-For technical details and full experimental results, please check the [paper](https://arxiv.org/abs/). Please consider citing our work if you find it helpful to yours:
+For technical details and full experimental results, please check the [paper](https://arxiv.org/abs/2302.09276). Please consider citing our work if you find it helpful to yours:
 
 ```
 @article{yeung2023transformer,
