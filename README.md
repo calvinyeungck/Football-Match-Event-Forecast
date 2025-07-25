@@ -1,4 +1,6 @@
 # Transformer-Based Neural Marked Spatio Temporal Point Process Model for Football Match Events Analysis
+[![arXiv](https://img.shields.io/badge/arXiv-2302.09276-b31b1b.svg)](https://arxiv.org/abs/2302.09276)
+
 The NMSTPP model architecture:
 ![alt text](https://github.com/calvinyeungck/Football-Match-Event-Forecast/raw/main/NMSTPP.png)
 
